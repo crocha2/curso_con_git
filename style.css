@@ -33,5 +33,10 @@ y en el html se llaman mediante el atributo class ejemplo,  <div class="borde-lo
     padding: 0;    
 }
 
-
+body{
+    background: #212121  url(img/fondo.jpg);
+    color: #fff;
+    font-size: 16px;
+    
+}
 
