@@ -1,0 +1,37 @@
+/*
+
+Reglas para trabajar con css
+
+1) Se definen  los estilos para ETIQUETAS HTML: Header, footer, dic, a, p, etc.
+
+2) Se definen  los estilos para IDENTIFICADORES (id), los id´s son elementos unicos en HTML. En el css se 
+declaran con el simbolo # por ejemplo: #nombre-id {estilos} y en HTML se llaman mediante el atributo id, 
+ejemplo <div id="nombre-id"></div>
+
+3) Al final se definen los estiilos para las clases (class), las clases son elementos que se pueden 
+repetir 'n' veces en el HTML. En el css se declaran con el simbolo, ejemplo .nombre-clase {estilos}
+y en el html se llaman mediante el atributo class ejemplo,  <div class="borde-logos"
+
+4) Todos los estilos se ordenan conforme van apareciendo en la dispocisión del html 
+(primero body, header, h1 y como vayan apareciendo), teniendo en cuenta la prioridad anterior,
+ es decir, etiquetas html, luego id´s y al final class
+
+ 5) Los atributos se declaran de la siguiente forma: {atributo1:valor1; atributo2:valor2; ...; atributoN:valorN}
+
+ 6) Todos los atributos se ordenan alfabeticamente, por ejemplo width, color, disply; entonces 
+ sería: color, display, width
+
+ 7) Si tenemos estilos para el comodín *, o para las etiquetas html y/o body, estos estilos son los primeros en definirse
+
+ 8) En el body debemos declarar un tamaño de fuente global 
+
+ 9) Si tenemos estilos para resetear elementos html, estos irán antes de cualquier estilo
+*/
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+
+
